@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: "source sans pro";
+}
+.navbar__logo {
+  color: #d49466;
+  font-style: italic;
+  font-size: 25px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3d4326;
+  padding: 8px 12px;
+}
+
+.navbar__menu {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+.navbar__menu li {
+  padding: 8px 12px;
+}
+.navbar__menu li:hover {
+  background-color: #d49466;
+  border-radius: 4px;
+}
+
+.img-box {
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: grey;
+}
+.img-box > img {
+  display: block;
+  width: 100%;
+}
+
+.massage-box {
+  max-width: 800px;
+  width: 100%;
+  padding-bottom: 25%;
+  background-color: #ddd;
+  margin: 5% auto;
+  background-image: url(https://as1.ftcdn.net/jpg/03/15/92/94/220_F_315929483_O3zCF74h869pep9L2WMi6cWS2bhO2AjH.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 24px;
+  }
+  .navbar__menu {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .navbar__menu li {
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,41 @@
+body {
+  background: white;
+}
+section {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  margin: 15% auto;
+  max-width: 800px;
+  width: 100%;
+}
+article {
+  display: flex;
+}
+.bild {
+  width: 100%;
+  background: url("https://i.pinimg.com/originals/bb/1e/61/bb1e61553cb143b456c050e0fab84c53.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.infos {
+  width: 50%;
+  background: #f1f1f1;
+  padding: 50px;
+}
+
+.infos h1 {
+  font-size: 20px;
+  color: #333;
+}
+.infos p {
+  color: #777;
+}
+.infos a {
+  color: white;
+  background: lightgreen;
+  display: block;
+  text-align: center;
+}
+.infos a:hover {
+  background: #ffee58;
+  color: #f06292;
+}
