@@ -32,6 +32,14 @@ a {
   background-color: #d49466;
   border-radius: 4px;
 }
+.navbar__icons {
+  list-style-type: none;
+  color: white;
+  display: flex;
+}
+.navbar__icons li {
+  padding: 8px 12px;
+}
 
 .img-box {
   max-width: 800px;
